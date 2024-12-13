@@ -1,0 +1,123 @@
+.alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.singUp-container {
+  display: flex;
+  width: 65%;
+  height: 90%; 
+}
+
+.singUp-card {
+  background-color: #f00;
+  padding: 30px;
+  border-radius: 4% 0% 0% 4%;
+  width: 40%;
+  text-align: center;
+  color: #333;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.singUp-card form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+  
+.singUp-card input {
+  width: 90%;
+  height: 50px;
+  padding: 30px;
+  margin-top: 60px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 25px;
+  background-color: #f9f9f9;
+}
+  
+.singUp-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+  
+.sing_button {
+  margin-top: 60px;
+  width: 80%;
+  height: 50px;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+.sing_button:hover {
+  background-color: #a50000;
+  color: white;
+}
+
+.singUp-card h2 {
+  color: white;
+}
+
+.error {
+  color: #ff6666;
+  font-size: 14px;
+}
+
+.switch-text {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding-top: 130px;
+}
+  
+.switch-button {
+  background: none;
+  color: rgb(255, 178, 178);
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.s-text {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding-top: 130px;
+}
+  
+.s-button {
+  background: none;
+  color: rgb(255, 178, 178);
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.switch-button:hover {
+  color: #000000;
+}
+
+.imagem {
+  object-fit: cover;
+  width: 65%;
+}
+  
